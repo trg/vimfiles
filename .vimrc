@@ -10,3 +10,6 @@ nmap <silent> <C-D> :NERDTreeToggle<CR>
 
 " Disable Wrapping Text
 set nowrap
+
+" Set shiftwidth
+set softtabstop=2 shiftwidth=2 expandtab
