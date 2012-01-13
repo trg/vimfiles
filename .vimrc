@@ -1,5 +1,5 @@
 " Set Color Scheme
-:colo golden
+:colo motus
 
 " Open NERDTree & Change Focus to window
 autocmd VimEnter * NERDTree
@@ -14,7 +14,12 @@ set nowrap
 " Add line numbers
 set nu
 
-" Set Tab options
+" Auto Indent
+set cindent
+set smartindent
+set autoindent
+
+" Tab Options
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
