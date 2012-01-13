@@ -25,5 +25,7 @@ set tabstop=2
 set softtabstop=2
 set expandtab
 
-" Set color line at 80 chars
-autocmd FileType ruby,python,javascript set colorcolumn=80
+" Set color line at 80 chars for certain file types
+" First, clear them out, then set by file
+autocmd Filetype * setlocal colorcolumn=0
+autocmd FileType ruby,javascript setlocal colorcolumn=80
