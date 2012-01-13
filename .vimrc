@@ -1,5 +1,5 @@
 " Set Color Scheme
-:colo motus
+:colo golden 
 
 " Open NERDTree & Change Focus to window
 autocmd VimEnter * NERDTree
@@ -24,3 +24,6 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 set expandtab
+
+" Set color line at 80 chars
+autocmd FileType ruby,python,javascript set colorcolumn=80
