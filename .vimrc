@@ -6,7 +6,7 @@
 :colo Calmar256-dark
 
 " Set font size + family
-set guifont=Bitstream\ Vera\ Sans\ Mono:h14
+" set guifont=Bitstream\ Vera\ Sans\ Mono:h14
 
 " Open NERDTree & Change Focus to window
 autocmd VimEnter * NERDTree
@@ -22,7 +22,7 @@ set nowrap
 set nu
 
 " Auto Indent
-set cindent
+" set cindent
 set smartindent
 set autoindent
 
