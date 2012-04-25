@@ -37,18 +37,21 @@ set expandtab
 autocmd Filetype * setlocal colorcolumn=0
 autocmd FileType ruby,javascript setlocal colorcolumn=80
 
+" Whitespace Chars
+set list listchars=tab:→\ ,trail:·
+
 
 " 
 " RUBY
 " 
 
 " Autocomplete Dropdown, http://www.cuberick.com/2008/10/ruby-autocomplete-in-vim.html
-autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
-autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
-autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
-autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+"autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+"autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+"autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+"autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 " improve autocomplete menu color
-highlight Pmenu ctermbg=238 gui=bold
+"highlight Pmenu ctermbg=238 gui=bold
 
 "
 " NodeJS
