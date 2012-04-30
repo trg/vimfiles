@@ -32,6 +32,8 @@ set tabstop=2
 set softtabstop=2
 set expandtab
 
+filetype plugin indent on
+
 " Set color line at 80 chars for certain file types
 " First, clear them out, then set by file
 autocmd Filetype * setlocal colorcolumn=0
@@ -42,6 +44,9 @@ set list listchars=tab:→\ ,trail:·
 
 " Ignore certain files in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
+
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
+
 
 " 
 " RUBY
@@ -61,3 +66,5 @@ let NERDTreeIgnore = ['\.pyc$']
 
 " Let vim know that .ejs is basically .html
 au BufNewFile,BufRead *.ejs set filetype=html
+
+
