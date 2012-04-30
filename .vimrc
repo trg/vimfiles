@@ -40,6 +40,8 @@ autocmd FileType ruby,javascript setlocal colorcolumn=80
 " Whitespace Chars
 set list listchars=tab:→\ ,trail:·
 
+" Ignore certain files in NERDTree
+let NERDTreeIgnore = ['\.pyc$']
 
 " 
 " RUBY
