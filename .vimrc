@@ -39,6 +39,9 @@ filetype plugin indent on
 autocmd Filetype * setlocal colorcolumn=0
 autocmd FileType ruby,javascript setlocal colorcolumn=80
 
+" LESS CSS
+autocmd! BufRead,BufNewFile *.less set filetype=less 
+
 "
 " PYTHON
 "
