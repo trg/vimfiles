@@ -3,7 +3,7 @@
 " 
 
 " Set Color Scheme
-:colo Colorer
+:colo Molokai 
 
 " Set font size + family
 set guifont=Monaco:h12
@@ -44,7 +44,8 @@ autocmd FileType ruby,javascript setlocal colorcolumn=80
 "
 
 " Whitespace Chars
-autocmd FileType python setlocal list listchars=tab:→\ ,trail:·
+"autocmd FileType python setlocal list listchars=tab:→\ ,trail:·
+set list listchars=tab:→\ ,trail:·
 
 " Ignore certain files in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
