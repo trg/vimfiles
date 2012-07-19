@@ -6,7 +6,8 @@
 :colo Molokai 
 
 " Set font size + family
-set guifont=Monaco:h12
+" set guifont=Monaco:h12
+set guifont=Inconsolata:h12
 
 " Open NERDTree & Change Focus to window
 autocmd VimEnter * NERDTree
