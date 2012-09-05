@@ -3,7 +3,8 @@
 " 
 
 " Set Color Scheme
-:colo Molokai 
+":colo Molokai 
+:colo Tomorrow-Night-Bright
 
 " Set font size + family
 " set guifont=Monaco:h12
