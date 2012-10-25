@@ -4,7 +4,8 @@
 
 " Set Color Scheme
 ":colo Molokai 
-:colo Tomorrow-Night-Bright
+":colo Tomorrow-Night-Bright
+:colo railscasts
 
 " Set font size + family
 " set guifont=Monaco:h12
